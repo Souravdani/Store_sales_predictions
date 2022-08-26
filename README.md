@@ -12,10 +12,10 @@ We changed the categorical values from strings into integer type for that we cou
 So, we did label encoding for the columns on which it makes sense on other columns, we did one hot encoding by splitting our dataframe.
 
 1- First model was built using elastic net: 
-first approach-     rmse: 1103.18
+>>first approach-     rmse: 1103.18
                     R_sq:  0.54
 
-second approach-   rmse: 1104
+>>second approach-   rmse: 1104
                    R_sq: 0.55
 
 2- Second model using SVR:
@@ -23,15 +23,15 @@ did not perform well
 
 3- Third model- Random forest regression:
 (A parameter grid was set and the best n_estimator= 250)
-first approach-  rmse:1100
+>>first approach-  rmse:1100
                  R_sq:0.55
-second approach- rmse:1086
+>>second approach- rmse:1086
                   R_sq:0.56
                   
 4- Fourth model was boosting:
-first approach- rmse: 1042
+>>first approach- rmse: 1042
                 R_sq: 0.595
-second approach- rmse: 1030
+>>second approach- rmse: 1030
                  R_sq: 0.605
 
 Hence the second approach using gradient voosting gave the best result.
