@@ -36,4 +36,4 @@ did not perform well
 >> second approach- rmse: 1030
                  R_sq: 0.605
 
-Hence the second approach using gradient voosting gave the best result.
+Hence the second approach using gradient boosting gave the best result.
